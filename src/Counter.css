@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: pink;
+    height: 100vh;
+    width: 100%;
+}
+
+/* header  */
+.main-header{
+    background-color: #eee;
+    padding: 10px
+}
+
+.main-header > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-header li{
+    list-style: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* counter */
+.counter-parent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+
+    h3{
+        font-size: 30px;
+    }
+
+    button{
+        background: transparent;
+        font-size: 30px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+}
+
+
