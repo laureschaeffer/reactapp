@@ -12,6 +12,9 @@ export default function Header() {
         <Link to="/toggle">
           <li>Toggle</li>
         </Link>
+        <Link to="/calculator">
+          <li>Calculator</li>
+        </Link>
         <Link to="/about">
           <li>About</li>
         </Link>
